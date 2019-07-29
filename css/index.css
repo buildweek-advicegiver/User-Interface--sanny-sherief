@@ -24,6 +24,7 @@
 }
 body {
   background: #0A235C;
+  font-family: 'Open Sans', sans-serif;
 }
 a {
   text-decoration: none;
@@ -37,4 +38,18 @@ a {
 }
 .button:hover {
   color: #FFCC00;
+}
+section {
+  color: #F5F5F5;
+}
+section .heading {
+  color: #FFCC00;
+  text-align: center;
+}
+section article {
+  padding: 1rem 2rem;
+  background: #F5F5F5;
+}
+section article p {
+  color: black;
 }
