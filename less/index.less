@@ -1,1 +1,19 @@
 @import "variables";
+@import "mixins";
+@import "navigation";
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  border-radius: 5px;
+  color: @gray;
+  background: @blue;
+  padding: .5rem 1rem;
+
+  &:hover {
+    color: @yellow;
+  }
+}
