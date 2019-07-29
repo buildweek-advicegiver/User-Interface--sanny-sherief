@@ -2,6 +2,11 @@
   max-width: 1168px;
   margin: 0 auto;
 }
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
 #main-header {
   background: #F5F5F5;
 }
@@ -21,6 +26,11 @@
 #main-nav ul span,
 #main-nav ol span {
   margin: 0 .4rem;
+}
+@media (max-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+  }
 }
 body {
   background: #0A235C;
