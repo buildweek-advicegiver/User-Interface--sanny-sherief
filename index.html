@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Advice Giver</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -36,10 +37,42 @@
     <section id="intro" class="container">
       <h1 class="heading">What is Advice Giver?</h1>
       <article>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ut corrupti ipsa in eligendi odit, veniam, voluptatum laudantium, dolorum unde ad ea perferendis. Dolorem doloribus impedit laborum voluptate, sed numquam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ut corrupti ipsa in eligendi odit, veniam,
+          voluptatum laudantium, dolorum unde ad ea perferendis. Dolorem doloribus impedit laborum voluptate, sed
+          numquam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iusto nostrum consectetur maiores corrupti
+          recusandae quam facilis quos pariatur? Quo ex quod quibusdam delectus provident tenetur doloremque. Corrupti,
+          doloremque facere!</p>
       </article>
     </section>
+    <section id="featured" class="container">
+      <h1 class="heading">Featured Advisors</h1>
+
+      <div id="carousel">
+        <article id="advisor-shot">
+          <img src="http://via.placeholder.com/300" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti alias ducimus similique illum ex vel
+            porro
+            facilis quo ad quam culpa aliquam quidem suscipit a magni, sunt eaque iusto cum.</p>
+        </article>
+        <article id="advisor-shot">
+          <img src="http://via.placeholder.com/300" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti alias ducimus similique illum ex vel
+            porro
+            facilis quo ad quam culpa aliquam quidem suscipit a magni, sunt eaque iusto cum.</p>
+        </article>
+      </div>
+    </section>
   </main>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/slick.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('#carousel').slick();
+    });
+  </script>
 </body>
 
 </html>

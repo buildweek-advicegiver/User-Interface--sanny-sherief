@@ -51,6 +51,7 @@ a {
 }
 section {
   color: #F5F5F5;
+  padding: 0 0 2rem;
 }
 section .heading {
   color: #FFCC00;
@@ -62,4 +63,11 @@ section article {
 }
 section article p {
   color: black;
+}
+#carousel {
+  display: flex;
+  align-items: center;
+}
+#carousel .slick-list {
+  margin: 0 1rem;
 }
