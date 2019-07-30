@@ -7,6 +7,30 @@
     padding: 0 2rem 2rem 2rem;
   }
 }
+.sub-heading {
+  color: #585858;
+}
+.advisor-info {
+  color: black;
+  text-align: center;
+}
+.advisor-info .advisor-img {
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 0 1rem;
+}
+@media (max-width: 500px) {
+  .advisor-info .advisor-img {
+    display: none;
+  }
+}
+.advisor-info .heading {
+  margin: 0 0 .4rem;
+  color: black;
+}
+.advisor-info p {
+  text-align: left;
+}
 #main-header {
   background: #F5F5F5;
 }
@@ -84,9 +108,6 @@ section article p {
 }
 #latest-article .heading {
   text-align: left;
-}
-#latest-article .sub-heading {
-  color: #585858;
 }
 #latest-article .wrapper {
   display: flex;
