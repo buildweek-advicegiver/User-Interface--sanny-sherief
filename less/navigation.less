@@ -17,7 +17,15 @@
 
     span {
       margin: 0 .4rem;
+
+      @media @mobile {
+        display: none;
+      }
     }
+  }
+
+  @media @tablet {
+    padding-bottom: 0;
   }
 
   @media @mobile {

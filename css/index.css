@@ -4,7 +4,7 @@
 }
 @media (max-width: 1000px) {
   .container {
-    padding: 0 2rem;
+    padding: 0 2rem 2rem 2rem;
   }
 }
 #main-header {
@@ -26,6 +26,17 @@
 #main-nav ul span,
 #main-nav ol span {
   margin: 0 .4rem;
+}
+@media (max-width: 500px) {
+  #main-nav ul span,
+  #main-nav ol span {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  #main-nav {
+    padding-bottom: 0;
+  }
 }
 @media (max-width: 500px) {
   #main-nav {
@@ -70,4 +81,20 @@ section article p {
 }
 #carousel .slick-list {
   margin: 0 1rem;
+}
+#latest-article .heading {
+  text-align: left;
+}
+#latest-article .sub-heading {
+  color: #585858;
+}
+#latest-article .wrapper {
+  display: flex;
+}
+#latest-article .article-img {
+  margin: 0 2rem 0 0;
+}
+#latest-article article {
+  color: black;
+  width: 100%;
 }
