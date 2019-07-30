@@ -1,0 +1,35 @@
+@import "variables";
+@import "mixins";
+@import "globals";
+@import "navigation";
+
+#devs {
+  color: black;
+
+  > .heading {
+    margin: 3rem 0;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .advisor-info {
+    width: 33%;
+    
+    .centered();
+
+    @media @tablet {
+      width: 50%;
+    }
+
+    @media @mobile {
+      width: 100%;
+    }
+
+    p {
+      .centered();
+    }
+  }
+}
