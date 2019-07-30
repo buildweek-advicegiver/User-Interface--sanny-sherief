@@ -41,7 +41,13 @@
 #main-nav ul,
 #main-nav ol {
   display: flex;
+  width: 100%;
   list-style: none;
+  padding: 0;
+}
+#main-nav ul .right,
+#main-nav ol .right {
+  margin-left: auto;
 }
 #main-nav ul li,
 #main-nav ol li {
