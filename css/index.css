@@ -114,6 +114,10 @@ section article p {
 #carousel .slick-list {
   margin: 0 1rem;
 }
+#carousel .slick-arrow {
+  cursor: pointer;
+  color: #F5F5F5;
+}
 #latest-article .heading {
   text-align: left;
 }

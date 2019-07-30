@@ -82,10 +82,14 @@
 
   <script src="js/jquery.js"></script>
   <script src="js/slick.js"></script>
+  <script src="https://kit.fontawesome.com/8f8ce60f39.js"></script>
 
   <script>
     $(document).ready(function () {
-      $('#carousel').slick();
+      $('#carousel').slick({
+        prevArrow: '<i class="slick-arrow fas fa-3x fa-arrow-alt-circle-left"></i>',
+        nextArrow: '<i class="slick-arrow fas fa-3x fa-arrow-alt-circle-right"></i>',
+      });
     });
   </script>
 </body>
