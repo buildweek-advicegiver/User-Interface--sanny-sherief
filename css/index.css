@@ -44,25 +44,25 @@ section article p {
 .sub-heading {
   color: #585858;
 }
-.advisor-info {
+.person-info {
   color: black;
   text-align: center;
 }
-.advisor-info .advisor-img {
+.person-info .person-img {
   border-radius: 50%;
   display: inline-block;
   margin: 0 0 1rem;
 }
 @media (max-width: 500px) {
-  .advisor-info .advisor-img {
+  .person-info .person-img {
     display: none;
   }
 }
-.advisor-info .heading {
+.person-info .heading {
   margin: 0 0 .4rem;
   color: black;
 }
-.advisor-info p {
+.person-info p {
   text-align: left;
 }
 #main-header {
