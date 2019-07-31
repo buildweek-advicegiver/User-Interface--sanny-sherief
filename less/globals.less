@@ -51,9 +51,22 @@ section {
     border-radius: 50%;
     display: inline-block;
     margin: 0 0 1rem;
+    max-width: 150px;
 
     @media @mobile {
       display: none;
+    }
+  }
+
+  .social {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+    li {
+      cursor: hand;
+      margin: 0 .3rem;
     }
   }
 
