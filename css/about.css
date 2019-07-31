@@ -107,24 +107,9 @@ section article p {
 #main-nav ol li {
   margin: 0 1rem;
 }
-#main-nav ul span,
-#main-nav ol span {
-  margin: 0 .4rem;
-}
-@media (max-width: 500px) {
-  #main-nav ul span,
-  #main-nav ol span {
-    display: none;
-  }
-}
 @media (max-width: 1000px) {
   #main-nav {
     padding-bottom: 0;
-  }
-}
-@media (max-width: 500px) {
-  #main-nav {
-    flex-direction: column;
   }
 }
 #footer {
