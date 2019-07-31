@@ -10,9 +10,18 @@
 .centered {
   text-align: center;
 }
+html,
+body {
+  height: 100%;
+}
 body {
   background: #0A235C;
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
 }
 a {
   text-decoration: none;
@@ -117,6 +126,11 @@ section article p {
   #main-nav {
     flex-direction: column;
   }
+}
+#footer {
+  background: #FFAFAF;
+  padding: 2rem;
+  text-align: center;
 }
 #carousel {
   display: flex;

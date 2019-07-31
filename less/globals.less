@@ -1,8 +1,18 @@
 // main: index.less, main: about.less
 
+html, body {
+  height: 100%;
+}
+
 body {
   background: @blue;
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 a {
