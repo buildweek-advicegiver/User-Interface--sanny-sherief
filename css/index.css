@@ -152,6 +152,11 @@ section article p {
 #latest-article .article-img {
   margin: 0 2rem 0 0;
 }
+@media (max-width: 1000px) {
+  #latest-article .article-img {
+    display: none;
+  }
+}
 #latest-article article {
   color: black;
   width: 100%;
