@@ -1,11 +1,7 @@
 .container {
   max-width: 1168px;
   margin: 0 auto;
-}
-@media (max-width: 1000px) {
-  .container {
-    padding: 0 2rem 2rem 2rem;
-  }
+  padding: 0 2rem 2rem 2rem;
 }
 .centered {
   text-align: center;
@@ -91,6 +87,7 @@ section article p {
 #main-nav {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 #main-nav ul,
 #main-nav ol {
@@ -106,11 +103,6 @@ section article p {
 #main-nav ul li,
 #main-nav ol li {
   margin: 0 1rem;
-}
-@media (max-width: 1000px) {
-  #main-nav {
-    padding-bottom: 0;
-  }
 }
 #footer {
   background: #FFAFAF;
@@ -136,7 +128,7 @@ section article p {
 #devs .person-info.full-width {
   width: 100%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   #devs .person-info {
     width: 48%;
   }

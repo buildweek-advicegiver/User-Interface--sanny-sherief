@@ -33,19 +33,21 @@
     <section id="intro" class="container">
       <h1 class="centered heading">What is Advice Giver?</h1>
       <article>
-        <p>Advice Giver is a platform to connect people seeking advice with those willing to give it. You can sign up now and receive answers to questions that you have, and, if you're willing, offer what you know to your fellow human beings.</p>
+        <p>Advice Giver is a platform to connect people seeking advice with those willing to give it. You can sign up
+          now and receive answers to questions that you have, and, if you're willing, offer what you know to your fellow
+          human beings.</p>
       </article>
     </section>
     <section id="featured" class="container">
       <h1 class="centered heading">Featured Advisors</h1>
       <div id="carousel">
         <article class="person-info">
-          <img src="http://via.placeholder.com/150" alt="" class="person-img">
+          <img src="img/jane.png" alt="Jane Doe" class="person-img">
           <h3 class="heading">Jane Doe</h3>
           <p>Jane is a professional who holds a degree in advice giving.</p>
         </article>
         <article class="person-info">
-          <img src="http://via.placeholder.com/150" alt="" class="person-img">
+          <img src="img/john.png" alt="John Doe" class="person-img">
           <h3 class="heading">John Doe</h3>
           <p>John is one of our highest rated advice giverers.</p>
         </article>
@@ -54,7 +56,7 @@
     <section id="latest-article" class="container">
       <h1 class="heading">Our latest article</h1>
       <div class="wrapper">
-        <img src="img/depression.jpg" alt="" class="article-img">
+        <img src="img/depression.jpg" alt="A depressed person." class="article-img">
         <article>
           <h2>Dealing with Depression</h2>
           <span class="sub-heading">1 hour ago</span>
@@ -82,6 +84,7 @@
       $('#carousel').slick({
         prevArrow: '<i class="slick-arrow fas fa-3x fa-arrow-alt-circle-left"></i>',
         nextArrow: '<i class="slick-arrow fas fa-3x fa-arrow-alt-circle-right"></i>',
+        autoplay: true,
       });
     });
   </script>
