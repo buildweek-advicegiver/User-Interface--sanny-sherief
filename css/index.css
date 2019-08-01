@@ -120,6 +120,9 @@ section article p {
   cursor: pointer;
   color: #F5F5F5;
 }
+#carousel .slick-arrow:hover {
+  color: #FFCC00;
+}
 @media (max-width: 500px) {
   #carousel .slick-arrow {
     display: none;
